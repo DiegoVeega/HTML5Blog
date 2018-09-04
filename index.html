@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 Blog</title>
+</head>
+
+<body>
+    <!--Para asignar posicion a los elementos de la cabecera-->
+    <header>
+        <!-- div asignado a la imagen de la entrada del blog, con finalidad
+        de al momento de darle estilo se mantengo al mismo sitio del header
+        pero a la vez darle su posicion en el encabezado-->
+        <div>
+            <img src="img/imagen.jpg" alt="Perfil de entrada" width="70em">
+        </div>
+        <!--div se le asigna posicion propia al nombre de la entrada como a
+        la fecha de la entrada para dar formato en conjunto-->
+        <div>
+            <!-- date y datetime: utilizado para especificar fecha y hora en la cual
+                se realizo la publicacion, asi mostrando resultados de busqueda los
+                cuales concuerden con tiempo de publicacion-->
+            <time datetime="2018-09-03"> Martes, Septiembre 03,2018.</time>
+            <!--h1 Dar importancia al titulo de la publicacion-->
+            <h1>2012 Best Summer Cook.</h1>
+        </div>
+    </header>
+    <!--Nav para almacenar las distintas secciones mostradas para esta entrada -->
+    <nav>
+        <a href="#"><img src="img/utensils-solid.svg" alt="Tastemakers" width="30em">Tastemakers</a>
+        <a href="#"><img src="img/book-open-solid.svg" alt="Blog" width="30em">Blog</a>
+        <a href="#"><img src="img/clipboard-list-solid.svg" alt="The A-List" width="30em">The A-List</a>
+        <a href="#"><img src="img/folder-plus-solid.svg" alt="Contribute" width="30em">Contribute</a>
+        <a href="#"><img src="img/info-solid.svg" alt="About" width="15em">About</a>
+        <hr>
+    </nav>
+    <!--section, nombra el espacio de la publicacion agregada a la pagina (la entrada), contendra toda entrada agregada a la pagina y su estilo general sera el mismo COMO SECTION.-->
+    <section>
+        <!--especifico para la entrada contendra el articulo que se desea publicar. -->
+        <article>
+            <!--division especifica para la entrada de texto en la pagina.-->
+            <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit incidunt non modi quia voluptas commodi vitae perferendis
+                ab aspernatur culpa quaerat labore, quos enim repellat optio facere? Incidunt, consequuntur unde.Repudiandae
+                soluta officiis sed itaque inventore, animi possimus voluptas illo quis facere cum velit modi, sapiente harum
+                hic dolore sint sit minus. Error reprehenderit voluptates illo veritatis excepturi odio. Blanditiis?
+            </div>
+            <div>
+                <!--div espacio para ilustracion de la entrada, separado de la entrada para
+                modificar aparte de la informacion subida-->
+                <div>
+                    <img src="img/imagen.jpg" alt="imagen 1" width="100em" border="1px" align="right">
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quia quisquam. Aperiam, hic maiores? Quidem unde, qui
+                    quaerat praesentium, voluptas quasi, nam consectetur quae expedita natus possimus tempore ipsa in? Sint
+                    eveniet, deserunt libero, aperiam reprehenderit natus neque assumenda molestias perferendis quia nostrum
+                    ab harum laborum nobis facilis quos error sed incidunt, culpa dolorem. Voluptates amet ex incidunt corporis!
+                    Omnis. Repudiandae pariatur natus neque debitis excepturi, hic delectus rerum quibusdam similique earum
+                    dolores accusantium iste ea laborum ullam velit! Voluptate sit, non quaerat sint eligendi soluta expedita
+                    neque mollitia reiciendis! Est, veritatis reprehenderit. Animi ex nobis soluta quae facere! Voluptas
+                    minus non voluptates impedit quaerat id nihil deleniti nostrum illum ab esse, placeat quo unde quae odio
+                    soluta voluptatem eum!
+                </p>
+            </div>
+            <!--div espacio para mencional colecciones/enlaces relacionados a la publicacion
+            o via a lo mostrado en la entrada-->
+            <div>
+                <P>See the full collection <a href="#">here</a>.</P>
+                <p>image via <a href="#">Diego PC</a>.</p>
+            </div>
+            <!--div espacio especifico para conocer al autor de LA ENTRADA
+            comentarios para la ENTRADA entre otros enlaces relacionados a la
+        publicacion pero sin formar parte del tema//// espacio de interaccion-->
+            <div>
+                <a href="#"><img src="img/user-solid.svg" alt="Profile tag" width="20em">Diego Vega</a>
+                <a href="#"><img src="img/comments-solid.svg" alt="Commets tag" width="20em">Leave a commet</a>
+                <a href="#"><img src="img/ticket-alt-solid.svg" alt="Cook tag" width="20em">Cook</a>
+            </div>
+        </article>
+    </section>
+    <aside>
+        <!--Delimitando seccion de suscripcion RSS en el espacio aside-->
+        <div>
+            <a href="#"><img src="img/rss-solid.svg" alt="Subscribe via RSS" width="30em">Subscribe via RSS</a>
+        </div>
+        <!--div delimitando seccion de categoria en la pagina para estilizarlo individualmente del aside general-->
+        <div>
+            <!--h3 Dar importancia al titulo de la publicacion-->
+            <h3>Categories</h3>
+            <hr>
+            <ul>
+                <li>
+                    <a href="#">Cook</a>
+                </li>
+                <li>
+                    <a href="#">Dine</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">Know</a>
+                </li>
+                <li>
+                    <a href="#">Monologues</a>
+                </li>
+                <li>
+                    <a href="#">My Veg Life</a>
+                </li>
+                <li>
+                    <a href="#">Read</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Ten Things</a>
+                </li>
+            </ul>
+        </div>
+        <!--Div asignado al espacio de busqueda de la pagina, unicamente para alinear
+        posicionar en la misma seccion del aside-->
+        <div>
+            <input type="text" placeholder="Search">
+            <input type="button" value="Go!">
+        </div>
+        <!--div delimitando seccion de categoria en la pagina para estilizarlo individualmente del aside general-->
+        <div>
+            <!--h3 Dar importancia al titulo de la publicacion-->
+            <h3>Archives</h3>
+            <hr>
+            <ul>
+                <li>
+                    <!--Especificando fecha del enlace a los archivos para facilitar
+                    su busqueda en el navegador.-->
+                    <a href="#"><time datetime="2012-05-01">Mayo del 2012</time></a>
+                </li>
+                <li>
+                    <!--Especificando fecha del enlace a los archivos para facilitar
+                    su busqueda en el navegador.-->
+                    <a href="#"><time datetime="2012-04-01">Abril del 2012</time></a>
+                </li>
+                <li>
+                    <!--Especificando fecha del enlace a los archivos para facilitar
+                    su busqueda en el navegador.-->
+                    <a href="#"><time datetime="2012-02-01">Febrero del 2012</time></a>
+                </li>
+                <li>
+                    <!--Especificando fecha del enlace a los archivos para facilitar
+                    su busqueda en el navegador.-->
+                    <a href="#"><time datetime="2012-03-01">Marzo del 2012</time></a>
+                </li>
+                <li>
+                    <!--Especificando fecha del enlace a los archivos para facilitar
+                    su busqueda en el navegador.-->
+                    <a href="#"><time datetime="2012-01-01">Enero del 2012</time></a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <!--aside este en cambio sera utilizado para la estructura que describe la pagina, no se agraga con el otro aside ya que este se posicionara y alineara en otro sentido dentro de la pagina, o podra estalizarse muy comodamente en el mismo-->
+    <aside>
+        <!--div especifico para interaccion con una red social-->
+        <div>
+            <p>LASTEST TWEET</p>
+            <hr>
+            <input type="button" value="Join the conversation.">
+        </div>
+        <!--seccionando para dar espacio a un mensaje a un mensaje para el lector-->
+        <div>
+            <p>LETS BE FRIENDS!</p>
+            <hr> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis eos dolorum atque exercitationem dignissimos
+            consequuntur commodi voluptate nesciunt, sequi nemo voluptatibus et aut officiis dolore est amet iure libero
+            cum.
+            <hr>
+        </div>
+    </aside>
+    <!--footer para almacenar informacion de contacto o derechos del propietario de la pagina-->
+    <footer>
+        <hr>
+        <!--div espacio referido a derechos del propietario de la pagina, esto ayudara a estilizar este contenido en el pie de pagina -->
+        <div>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Contact</a>
+            <p>Copyright © 2018 - Developed by El Diego.</p>
+        </div>
+        <!--div espacio referido a las redes sociales o contacto para tener mayor cercania con el propietario de la pagina o el equipo de la pagina, esto ayudara a estilizar este contenido en el pie de pagina-->
+        <div>
+            <a href="#"><img src="img/twitter-square-brands.svg" alt="Twitter" width="30em"></a>
+            <a href="#"><img src="img/facebook-brands.svg" alt="Facebook" width="30em"></a>
+            <a href="#"><img src="img/rss-solid.svg" alt="RSS" width="30em"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
